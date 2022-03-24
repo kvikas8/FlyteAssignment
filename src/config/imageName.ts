@@ -1,0 +1,7 @@
+export enum ImageNames {
+    INVITE_ICON = 'INVITE_ICON',
+    SAVE_ICON = 'SAVE_ICON',
+    TRANSFER_ICON = 'TRANSFER_ICON',
+    SHARE_ICON = 'SHARE_ICON',
+    DELETE_ICON = 'DELETE_ICON',
+}

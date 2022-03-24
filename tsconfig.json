@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "lib": ["es6"],
+        "jsx": "react",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "noStrictGenericChecks": true,
+        "resolveJsonModule": true,
+        "strict": true,
+        "strictNullChecks": false,
+        "target": "es2017"
+    },
+    "exclude": ["node_modules", "android", "ios", "./**/*.test.ts*", "./**/*.spec.ts*"]
+}
