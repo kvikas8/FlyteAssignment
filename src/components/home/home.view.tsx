@@ -50,17 +50,12 @@ export class HomeView<P_ extends Props = Props> extends StyledComponent<P_> {
 
     public Sheet = () => {
         return (
-            <View style={this.style.bottomSheetContainer}>
-                <BottomSwipeSheet
-                    ref={ref => this.props.onUpdateSheetRef(ref)}
-                    onDraggingSheet={this.props.onDraggingSheet}
-                >
-                    <View style={this.style.sheetContentContainer}>
-                        {this.SheetHandle()}
-                        <ActionList onPressActionListItem={this.props.onPressActionListItem} />
-                    </View>
-                </BottomSwipeSheet>
-            </View>
+            <BottomSwipeSheet
+                ref={ref => this.props.onUpdateSheetRef(ref)}
+                onDraggingSheet={this.props.onDraggingSheet}
+            >
+                <ActionList onPressActionListItem={this.props.onPressActionListItem} />
+            </BottomSwipeSheet>
         )
     }
 

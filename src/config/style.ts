@@ -2,7 +2,7 @@ import ColorSchema from '../styles/styleSchema'
 
 const LIGHTER_GRAY = '#F7F6F8'
 const LIGHT_GRAY = '#D4D2D5'
-const LIGHTEST_GRAY = '#F5F5F5'
+export const LIGHTEST_GRAY = '#F5F5F5'
 const TRANSPARENT = 'transparent'
 const DARK_GREY = '#86888D'
 const BLACK = '#000'
